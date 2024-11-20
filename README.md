@@ -16,3 +16,8 @@ Use the following commands to assemble and link your assembly file:
 
 ```bash
 nasm -f elf64 "FILENAME" && ld -o "FILENAME" "FILENAME.o" -lc --dynamic-linker /lib64/ld-linux-x86-64.so.2
+```
+Alternatively, you can download the bash script and use the command:
+``` bash
+./assembler.sh FILENAME
+```
